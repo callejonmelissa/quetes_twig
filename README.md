@@ -6,12 +6,16 @@ Critères de validation
 - La syntaxe de Twig est correctement utilisée (il doit y avoir au minimum une boucle).
 - Dans ton navigateur, la page index.php affiche bien les 6 produits, à raison de 3 par ligne. Ainsi que le résultat dump() du tableau de produit.
 
+_________________________________
+
 **Twig - 02. Héritage et inclusion**
 
 Critères de validation
 
 - parent() est utilisé dans le fichier home.html.twig
 - Les bonnes pratiques de nommage sont appliquées
+
+_________________________________
 
 **Twig - 03. Les globales**
 
