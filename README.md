@@ -1,9 +1,22 @@
-# quest-twig
+**Twig - 01. Démarrage et utilisation**
 
-Hello Wilder !
+Critères de validation
 
-If you are here, it's certainly because you start the quests about Twig !
+- Il y a un fichier Twig products.html.twig dans le dossier de src/View.
+- La syntaxe de Twig est correctement utilisée (il doit y avoir au minimum une boucle).
+- Dans ton navigateur, la page index.php affiche bien les 6 produits, à raison de 3 par ligne. Ainsi que le résultat dump() du tableau de produit.
 
-So, use me as a template, and follow instructions on Odyssey !
+**Twig - 02. Héritage et inclusion**
 
-Enjoy your journey !
+Critères de validation
+
+- parent() est utilisé dans le fichier home.html.twig
+- Les bonnes pratiques de nommage sont appliquées
+
+**Twig - 03. Les globales**
+
+Critères de validation
+
+- Il y a bien un $twig->addGlobal() dans config/twig.php pour déclarer un email de contact
+- Il y a bien l'inclusion du fichier src/View/_footer.html.twig dans le layout.html.twig
+- Les bonnes pratiques de nommage sont appliquées
